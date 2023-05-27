@@ -18,6 +18,7 @@ Apply data visualization techniques to identify the patterns of the data.
 
 
 # CODE
+~~~
 
 # loading the dataset
 import pandas as pd
@@ -209,6 +210,7 @@ df5=pd.DataFrame(sc.fit_transform(df4),columns=['Ship Mode', 'Segment', 'City', 
 plt.subplots(figsize=(12,7))
 sns.heatmap(df5.corr(),cmap="PuBu",annot=True)
 plt.show()
+~~~
 
 # OUPUT
 
